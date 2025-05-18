@@ -5,9 +5,9 @@ public class Main {
         Book onegin = new Book("Евгений Онегин", pushkin, 2007);
         Author lermontov = new Author("Михаил", "Лермонтов");
         Book geroyNV = new Book("Герой нашего времени", lermontov, 1984);
-        System.out.println(lermontov.getFirstName() +" "+ lermontov.getLastName() +", "+ geroyNV.getTitle() +", "+ geroyNV.getYearPublication());
+        System.out.println(geroyNV);
         geroyNV.setYearPublication(2019);
-        System.out.println(lermontov.getFirstName() +" "+ lermontov.getLastName() +", "+ geroyNV.getTitle() +", "+ geroyNV.getYearPublication());
+        System.out.println(geroyNV);
     }
 }
 
